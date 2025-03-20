@@ -9,7 +9,7 @@ export const Header = () => {
     <header>
     <Link to="/" className="logo">
     <img src={Logo} alt="Logo" />  
-    <span>Shopping Cart</span></Link>
+    <span>CR Context and Reducer Cart</span></Link>
     <nav className="navigation">
       <NavLink to="/" className="link" end>Home</NavLink>
       <NavLink to="/shoppingcart" className="link">Cart</NavLink>
